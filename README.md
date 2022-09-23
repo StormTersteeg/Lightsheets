@@ -14,36 +14,36 @@ Press `shift_right` to toggle widget visibility.
 You can call several functions from the default API to activate scripts.
 
 ### openUrl(url)
-To open a webpage url in your default browser.
+To open a webpage url in your default browser.<br>
 `pywebview.api.openUrl("https://dontdalon.com")`
 
 ### startApp(path)
-To open/start a local file.
+To open/start a local file.<br>
 `pywebview.api.startApp("C:\Users\storm\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord.lnk")`
 
 ### doCommand(command)
 `pywebview.api.doCommand("Rundll32.exe user32.dll,LockWorkStation")`
 
 ### openChild(url)
-To open a webpage url in a new lightsheet window.
+To open a webpage url in a new lightsheet window.<br>
 `pywebview.api.openChild("https://www.google.nl/maps")`
 
 ### show()
-To show all widgets.
+To show all widgets.<br>
 `pywebview.api.show()`
 
 ### hide()
-To hide all widgets.
+To hide all widgets.<br>
 `pywebview.api.hide()`
 
 ### minimize()
-To minimize all widgets.
+To minimize all widgets.<br>
 ``pywebview.api.minimize()``
 
 ### close()
-To turn lightsheets off.
+To turn lightsheets off.<br>
 `pywebview.api.close()`
 
 ### reload()
-To reload lightsheets. Useful to quickly restart lightsheets after adding new widgets.
+To reload lightsheets. Useful to quickly restart lightsheets after adding new widgets.<br>
 `pywebview.api.reload()`
