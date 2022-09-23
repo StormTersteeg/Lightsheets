@@ -31,11 +31,10 @@ function doTime() {
 
   if (showSeconds) {
     clock.innerHTML = h + ":" + m + ":" + s
-    date.innerHTML = ""
   } else {
     clock.innerHTML = h + ":" + m
-    date.innerHTML = today.toLocaleDateString('en-US', {weekday:'long', year:'numeric', month:'long', day:'numeric'})
   }
+  date.innerHTML = today.toLocaleDateString('en-US', {weekday:'long', year:'numeric', month:'long', day:'numeric'})
 }
 
 function checkTime(i) {
