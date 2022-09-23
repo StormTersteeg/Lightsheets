@@ -10,6 +10,16 @@ Programmed with [Glide](https://github.com/StormTersteeg/Python-Glide-Framework)
 Add new widgets by adding .html files to the `apps` directory.
 Press `shift_right` to toggle widget visibility.
 
+# Includes:
+| Resource            | Type |  |
+|----------------------------|--------|-----------------------------------------------------------------|
+| Bootstrap 4.1.1            | CSS/JS | https://getbootstrap.com/docs/4.1/getting-started/introduction/ |
+| JQuery 3.5.1               | JS     | https://jquery.com/                                             |
+| Daemonite's Material 4.1.1 | CSS    | https://daemonite.github.io/material/                           |
+| Material Icons             | Font   | https://fonts.google.com/icons?selected=Material+Icons          |
+| Popper 1.14.3              | JS     | https://popper.js.org/                                          |
+| Roboto                     | Font   | https://fonts.google.com/specimen/Roboto                        |
+
 # Javascript API
 You can call several functions from the default API to activate scripts.
 
