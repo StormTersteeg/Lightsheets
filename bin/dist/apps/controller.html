@@ -12,16 +12,7 @@
     <button onclick='pywebview.api.close()' class="btn btn-dark ml-3 mt-3">
       <span class="material-icons">close</span>
     </button>
-  </div>
-
-  <div class="d-flex justify-content-start align-items-start">
-    <button onclick='pywebview.api.doTasks("shutdown")' class="btn btn-dark ml-3 mt-3">
-      <span class="material-icons">power_settings_new</span>
-    </button>
-    <button onclick='pywebview.api.doTasks("hibernate")' class="btn btn-dark ml-3 mt-3">
-      <span class="material-icons">ac_unit</span>
-    </button>
-    <button onclick='pywebview.api.doTasks("lock")' class="btn btn-dark ml-3 mt-3">
+    <button onclick='pywebview.api.doCommand("Rundll32.exe user32.dll,LockWorkStation")' class="btn btn-dark ml-3 mt-3">
       <span class="material-icons">lock</span>
     </button>
   </div>
