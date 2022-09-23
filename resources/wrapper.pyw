@@ -10,19 +10,15 @@ class Api:
     self.visible = True
 
   def openUrl(self, url):
-    self.hide()
     webbrowser.open((url if ("http" in url) else "".join(["http://", url])).replace(' ', '%20'))
 
   def startApp(self, path):
-    self.hide()
     os.startfile(path)
 
   def doCommand(self, command):
-    self.hide()
     os.system(command)
 
   def openChild(self, url):
-    self.hide()
     webview.create_window(url, url)
 
   def show(self):
