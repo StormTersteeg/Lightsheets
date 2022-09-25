@@ -7,7 +7,9 @@ Programmed with [Glide](https://github.com/StormTersteeg/Python-Glide-Framework)
 
 
 # Summary
-Add new widgets by adding .html files to the `apps` directory.
+Add new widgets by adding .html files to the `apps` directory.<br><br>
+![image](https://user-images.githubusercontent.com/42808385/192152106-f1cbf78c-8866-4b54-97d6-510abfeebc1d.png)
+
 Press `shift_right` to toggle widget visibility.
 
 # Includes:
